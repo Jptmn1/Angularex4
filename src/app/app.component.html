@@ -1,0 +1,42 @@
+
+<div class="d1">
+<h2>{{Ourpricing}}</h2>
+
+Anually
+<mat-slide-toggle>monthly</mat-slide-toggle><br><br>
+</div>
+
+<main class="main">
+
+<mat-card class="c1">
+<mat-card-subtitle>{{basic}}</mat-card-subtitle>
+<mat-card-title>{{preco}}</mat-card-title>
+<mat-card-content>{{storage}}</mat-card-content>
+<mat-card-content>{{users}}</mat-card-content>
+<mat-card-content>{{send}}</mat-card-content>
+<button mat-button (click)="openSnackBar()">{{learn}}</button>
+</mat-card>
+
+
+<mat-card class="c2" [style]="'background-color: thistle' ">
+<mat-card-subtitle>{{prof}}</mat-card-subtitle>
+<mat-card-title>{{preco2}}</mat-card-title>
+<mat-card-content>{{storage2}}</mat-card-content>
+<mat-card-content>{{users2}}</mat-card-content>
+<mat-card-content>{{send2}}</mat-card-content>
+<button mat-button (click)="openSnackBar()" >{{learn}}</button>
+</mat-card>
+
+
+<mat-card class="c3">
+<mat-card-subtitle>{{mast}}</mat-card-subtitle>
+<mat-card-title>{{preco3}}</mat-card-title>
+<mat-card-content>{{storage3}}</mat-card-content>
+<mat-card-content>{{users3}}</mat-card-content>
+<mat-card-content>{{send3}}</mat-card-content>
+<button mat-button (click)="openSnackBar()">{{learn}}</button>
+</mat-card>
+
+
+
+</main>

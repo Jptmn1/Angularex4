@@ -1,0 +1,39 @@
+.main{display: flex;
+height: 85%;
+width: 100%;
+background-color: beige;
+justify-content: center;
+text-align: center;
+font-size: large;
+align-items: center;
+}
+
+
+
+.d1{text-align: center;
+background-color: beige;
+height: fit-content;
+}
+
+.c1{height: 280px;
+width: 180px;
+
+}
+
+.c2{height: 300px;
+    width: 230px;
+}
+
+.c3{height: 280px;
+    width: 180px;
+}
+
+h2{margin-top: 0%;
+}
+
+button{width: 4cm;
+height: 1cm;
+background-color: transparent;
+margin-top: 2cm;
+border-style: solid;
+}
